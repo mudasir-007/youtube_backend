@@ -8,7 +8,7 @@ import userRoutes from "./routes/user.routes.js";
 import vedioRoutes from "./routes/video.routes.js"
 import commentRoutes from "./routes/comment.routes.js";
 
-dotenv.config()
+dotenv.config();
 
 const PORT=process.env.PORT || 3000
 const app=express();
